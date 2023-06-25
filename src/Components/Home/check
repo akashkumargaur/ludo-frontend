@@ -1,0 +1,129 @@
+1  pwd
+    2  clear
+    3  apt get update
+    4  apt-get update
+    5  sudo get install git
+    6  sudo apt install git
+    7  pwd
+    8  li
+    9  list -l
+   10  clear
+   11  list
+   12  cd root
+   13  dir
+   14  pwd
+   15  cd /root
+   16  ls
+   17  ls -li
+   18  cd ..
+   19  ;s
+   20  ls
+   21  cd  /root
+   22  ls
+   23  ls -li
+   24  ver
+   25  lsb_realease_a
+   26  lsb_release_a
+   27  lsb_release -a
+   28  node --version
+   29  clear
+   30  curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash - &&sudo apt-get install -y nodejs        
+   31  node --version
+   32  npm --version
+   33  li -l
+   34  ls -li
+   35  curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash - &&sudo apt-get install -y nodejs        
+   36  node --version
+   37  npm --version
+   38  clear
+   39  logout
+   40  restart
+   41  shutdown
+   42  shutdown -c
+   43  logout
+   44  node --version
+   45  npm --version
+   46  ls -li
+   47  cd ..
+   48  ls -li
+   49  cd root
+   50  ls
+   51  logout
+   52  ls
+   53  ls`-li
+   54  ls-li
+   55  ls -li
+   56  cd
+   57  cd /home
+   58  ls
+   59  ls -li
+   60  pwd
+   61  cd
+   62  cd /app
+   63  mkdir -p ~/apps/starkingludo/repo
+   64  cd /app
+   65  ls -li
+   66  li
+   67  ls
+   68  cd /apps
+   69  cd apps
+   70  ls
+   71  cd
+   72  cd..
+   73  cd ..
+   74  ls
+   75  cd root
+   76  ls
+   77  mkdir -p ~/apps/starkingludo/dest
+   78  cd  ~/apps/starkingludo/repo
+   79  git --bash init
+   80  git --bare init
+   81  nano hooks/post-receive
+   82  ls
+   83  chmod ug+x hooks/post-receive
+   84  cd ../dest
+   85  cd dest
+   86  ls
+   87  cd apps
+   88  ls
+   89  cd starkingludo
+   90  ls
+   91  cd dest
+   92  nano .env
+   93  sudo a2enmod proxy proxy_http rewrite headers expires
+   94  sudo nano /etc/apache2/sites-available/starkingludo.com.config
+   95  sudo a2dissite 000-default
+   96  sudo a2ensite starkingludo.com.conf
+   97  sudo a2ensite starkingludo.com.config
+   98  sudo a2ensite starkingludo.com
+   99  sudo nano /etc/apache2/sites-available/starkingludo.com.conf
+  100  sudo nano /etc/apache2/sites-available/starkingludo.com.config
+  101  sudo nano /etc/apache2/sites-available/starkingludo.com.conf
+  102  sudo a2ensite starkingludo.com.conf
+  103  sudo systemctl restart apache2
+  104  sudo systemctl reload apache2
+  105  apachectl -v
+  106  sudo systemctl reload apache2
+  107  sudo systemctl restart apache2
+  108  systemctl status apache2.service
+  109  sudo service apache2 restart
+  110  systemctl status apache2.service
+  111  clean
+  112  clear
+  113  sudo nano /etc/apache2/sites-available/starkingludo.com.conf
+  114  sudo a2ensite starkingludo.com.conf
+  115  sudo systemctl restart apache2
+  116  sudo a2dissite 000-default
+  117  sudo a2ensite starkingludo.com.conf
+  118  sudo apt install certbot python3-certbot-apache
+  119  sudo certbot -d starkingludo.com -d www.starkingludo.com --apache --agree-tos -m starkingludo24@gmail.com --no-eff-email --redirect     
+  120  sudo certbot renew --dry-run
+  121  npm install forever -g
+  122  forever start --uid="starkingludo" --sourceDir="/root/apps/starkingludo/dest/" backend/server.js
+  123  cd..
+  124  ls
+  125  cd apps
+  126  cd starkingluo
+  127  cd starkingludo
+  128  cd dest
+  129  forever start --uid="starkingludo" --sourceDir="/root/apps/starkingludo/dest/" backend/server.js
