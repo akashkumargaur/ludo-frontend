@@ -38,14 +38,14 @@ const Header = ({isAuthenticated=false,user}) => {
 
   return (
     <>
-      <HStack  position={'relative'} height={["10vh","10vh"]} width={"100%"} top={"0"} backgroundColor={'white'} mt='0'   bottom={"2rem"} borderBottom='2px' borderColor='#D2D2D2' >
+      <HStack  position={'relative'} height={["10vh","8vh"]} width={"100%"} top={"0"} backgroundColor={'white'} mt='0'   bottom={"2rem"} borderBottom='2px' borderColor='#D2D2D2' >
         <Button color='black' ml='4' bg='white' width={"12"} height={"12"}  onClick={onOpen}>
           <RiMenu5Fill/>
         </Button>
-        <Image src={img} alt="logo"  w={["50px","100px"]} h={["45px","75px"]}/>
+        <Image src={img} alt="logo"  w={["50px","90px"]} h={["45px","55px"]}/>
         <HStack spacing={"5"} flex={1} pr='1rem'  justifyContent={"flex-end"}>
-          {user?(<HStack border='2px'  borderRadius='lg' borderColor='#D2D2D2' h='40%' p='2%'  w='fit-content'    bg='#D2D2D2'>
-            <Image  src={brifcase} width={"8"} height={"6"}  />
+          {user?(<HStack border='2px'  borderRadius='lg' borderColor='#D2D2D2' h='5vh' p='2%'  w='fit-content'    bg='#D2D2D2'>
+            <Image  src={brifcase} width={"8"} height={["6","5"]}  />
             <Text fontWeight={'bold'}  color={'black'} children={user.cash_balance}   />
           </HStack>):(<Button leftIcon={<RiInformationFill />} colorScheme='blue'  variant='outline'>
             Guide
